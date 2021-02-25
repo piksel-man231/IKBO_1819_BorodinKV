@@ -1,22 +1,24 @@
 import math
 
-x = int(input('Vvedite X'))
+#x = int(input('Vvedite X'))
 
-if x < 50:
-    sum = ((x ** 4) - math.sin(x))
-    print(sum)
+def f12(x):
 
-elif 50 <= x < 145:
+    if x < 50:
+        sum = ((x ** 4) - math.sin(x))
+        print(sum)
 
-    sum = ((abs(math.tan((math.e ** x) - (x ** 6)))) + math.e ** x)
-    print (sum)
+    elif 50 <= x < 145:
 
-elif 145 <= x < 204:
+        sum = ((abs(math.tan((math.e ** x) - (x ** 6)))) + math.e ** x)
+        print (sum)
 
-    sum = ((x ** 8) + (x ** 6))
-    print (sum)
+    elif 145 <= x < 204:
 
-elif x >= 204:
+        sum = ((x ** 8) + (x ** 6))
+        print (sum)
 
-    sum = ((x ** 5) + abs(x) - 86)
-    print (sum)
+    elif x >= 204:
+
+        sum = ((x ** 5) + abs(x) - 86)
+    #print (sum)

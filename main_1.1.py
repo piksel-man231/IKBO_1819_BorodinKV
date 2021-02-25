@@ -1,24 +1,26 @@
 import math
 
-num_1 = int(input('Vvedite X'))
-num_2 = int(input('Vvedite Y'))
+#num_1 = int(input('Vvedite X'))
+#num_2 = int(input('Vvedite Y'))
 #Perviy kusok
 
-sum_1 = math.sqrt((num_1 ** 4) - abs(num_1))
+def f11(num_1, num_2):
 
-#Vtoroy kusok
+    sum_1 = math.sqrt((num_1 ** 4) - abs(num_1))
 
-presum2_top = (abs(num_2) + math.tan(num_1))
-presum2_bot = ((math.e ** num_2) - (num_1 ** 6))
+    #Vtoroy kusok
 
-sum_2 = presum2_top / presum2_bot
+    presum2_top = (abs(num_2) + math.tan(num_1))
+    presum2_bot = ((math.e ** num_2) - (num_1 ** 6))
 
-#Tretiy kusok
+    sum_2 = presum2_top / presum2_bot
 
-presum3_top = ((num_2 ** 5) + (25 * (num_1 ** 8)))
-presum3_bot = ((31 * (num_2 ** 6)) + (36 * (num_2 ** 4)))
-sum_3 = math.sqrt(presum3_top / presum3_bot)
+    #Tretiy kusok
 
-#Final calculation
+    presum3_top = ((num_2 ** 5) + (25 * (num_1 ** 8)))
+    presum3_bot = ((31 * (num_2 ** 6)) + (36 * (num_2 ** 4)))
+    sum_3 = math.sqrt(presum3_top / presum3_bot)
 
-print(sum_1 - sum_2 + sum_3)
+    #Final calculation
+    sum_f = sum_1 - sum_2 +sum_3
+#print(sum_1 - sum_2 + sum_3)
