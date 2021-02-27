@@ -16,9 +16,9 @@ def f12(x):
     elif 145 <= x < 204:
 
         sum = ((x ** 8) + (x ** 6))
-        print (sum)
+        print(sum)
 
-    elif x >= 204:
+    else:
 
         sum = ((x ** 5) + abs(x) - 86)
     #print (sum)
