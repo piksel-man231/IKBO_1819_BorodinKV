@@ -15,4 +15,4 @@ def f13(sum_1, sum_2):
          sum_2 = (sum_2 + (math.log(j)) + (i ** 4))
 
     sum_3 = sum_1 + 42 * sum_2
-    #print(sum_1 + 42 * sum_2)
+    print(sum_1 + 42 * sum_2)

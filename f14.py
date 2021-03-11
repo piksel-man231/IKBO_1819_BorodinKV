@@ -9,4 +9,4 @@ def f14(n):
         f = (((1/53) * f_1 + math.cos(f_1)) - 60)
         f_1 = f
 
-#print(f_1)
+    print(f_1)
