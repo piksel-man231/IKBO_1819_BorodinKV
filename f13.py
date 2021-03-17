@@ -14,7 +14,7 @@ def f13(n, m):
 
     for i in range(1, n+1):
         for j in range(1, m+1):
-         sum_2 = (sum_2 + (math.log(j)) + (i ** 4))
+            sum_2 = (sum_2 + (math.log(j)) + (i ** 4))
 
     sum_3 = sum_1 + 42 * sum_2
     # print(sum_1 + 42 * sum_2)
