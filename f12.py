@@ -22,4 +22,4 @@ def f12(x):
     else:
 
         sum = ((x ** 5) + abs(x) - 86)
-        return sum
+    return sum

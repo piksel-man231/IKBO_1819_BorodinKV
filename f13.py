@@ -6,7 +6,7 @@ import math
 #   sum_2 = 0
 
 
-def f13(n, m, sum_1, sum_2):
+def f13(n, m):
 
     for i in range(1, n+1):
         sum_1 = (sum_1 + ((i ** 4) - abs(i)))
